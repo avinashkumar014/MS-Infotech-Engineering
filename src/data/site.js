@@ -10,10 +10,10 @@ export const site = {
     instagram: 'https://www.instagram.com/',
   },
   stats: [
-    { value: '00+', label: 'Projects completed' },
-    { value: '00+', label: 'Clients served' },
-    { value: '00+', label: 'Years of experience' },
-    { value: '00+', label: 'Team members' },
+    { value: '10+', label: 'Projects completed', detail: 'From planning to completion' },
+    { value: '5+', label: 'Clients served', detail: 'Built on lasting partnerships' },
+    { value: '4+', label: 'Years of experience', detail: 'Practical engineering expertise' },
+    { value: '100+', label: 'Team members', detail: 'Working together on every project' },
   ],
 }
 
@@ -24,7 +24,7 @@ export const navigation = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
   { label: 'Services', to: '/services' },
-  { label: 'Steel Structures', to: '/peb-structures' },
+  { label: 'PEB Structure', to: '/peb-structures' },
   { label: 'Projects', to: '/projects' },
   { label: 'Contact', to: '/contact' },
 ]

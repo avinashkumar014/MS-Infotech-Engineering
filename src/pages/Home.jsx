@@ -216,7 +216,7 @@ export default function Home() {
         <div className="container stats-inner">
           <div className="stats-intro"><span className="eyebrow eyebrow-light">A foundation for what’s next</span><h2>Built on real<br /><em>commitment.</em></h2><p>We believe the strongest measure is the care put into every project.</p></div>
           <div className="stats-grid">
-            {site.stats.map((stat) => <div className="stat-item" key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span><small>Update with verified company data</small></div>)}
+            {site.stats.map((stat) => <div className="stat-item" key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.detail}</small></div>)}
           </div>
         </div>
       </section>
